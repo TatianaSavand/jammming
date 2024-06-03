@@ -28,15 +28,21 @@
 }
 
 .login-page {
+  position: fixed;
+  left: 25%;
+  top:20%;
+  width: 100vh;
+  height: 60vh;
   color:white;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  position: relative;
-  left: 666px;
-  top:300px;
   font-family: "Space Mono", monospace;
   background-color: rgb(119, 136, 153, 0.7);
-  width: 30%;
-  height: 400px;
+}
+
+.log-btn {
+  outline: none;
+  border: none;
+  border-radius: 30px;
 }
