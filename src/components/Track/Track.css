@@ -1,0 +1,63 @@
+.track-container {
+    padding: 20px;
+    background-color: rgb(40, 44, 52, 0.2);
+    border-radius: 10px;
+    margin: 10px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.track-container:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.track-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.track-text {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+}
+
+.track-name {
+    margin: 0;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.track-artist-album {
+    margin: 5px 0 0 0;
+    color: #b3b3b3;
+    font-weight: lighter;
+}
+
+.icon-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.icon-button:hover {
+    color: #1db954;
+}
+
+.icon-button:focus {
+    outline: none;
+}
+
+.icon-button.remove:hover {
+    color: red;
+}
