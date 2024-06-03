@@ -1,8 +1,10 @@
-# Getting Started with Create React App
+# Mix your songs with jammming
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Source code of the tasks app made in React for learning.
 
-## Available Scripts
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d2b6e0a2-0b33-4091-8b97-ff628432010b/deploy-status)](https://app.netlify.com/sites/jammming-joy/deploys)
+
+## Development
 
 In the project directory, you can run:
 
@@ -29,5 +31,15 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Features
 
+- Adding tracks to playlists
+- Saving playlists directly to your spotify account
+
+## Built With
+
+- [React](https://react.dev)
+
+## Contributors
+
+- Tatyana Kuznetsova
